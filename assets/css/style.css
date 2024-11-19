@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family:'Gilroy', sans-serif;
+}
+
+
+.container1{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@layer base {
+    @font-face {
+      font-family: 'Gilroy, san-serif';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(../fonts/Gilroy.ttf) format('ttf');
+    }
+  }
